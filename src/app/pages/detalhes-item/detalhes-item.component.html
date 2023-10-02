@@ -1,0 +1,61 @@
+<div class="home__pading">
+    <div class="home__container">
+
+
+        <img
+                class="card__img"
+                [src]=[gameCover]
+                alt=""
+                srcset=""
+        >
+
+        <div class="card__detalhes">
+            <div class="card__informacoes">
+                <h1>{{gameName}}</h1>
+                <h2>{{gameLabel}}</h2>
+                <h3>{{gameType}}</h3>
+            </div>
+
+            <div class="card__descricao">
+                <h4 class="titulo">Visão geral do jogo</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada facilisis sem, vel
+                    dignissim
+                    mi suscipit a. Integer dignissim metus eget nunc rutrum, vel semper ligula egestas. Nullam viverra
+                    nisi
+                    non est lacinia, eget sagittis ipsum consectetur. Suspendisse consequat tellus tellus, vestibulum
+                    viverra
+                    nisl rutrum id. Aenean eget metus pharetra, scelerisque nulla id, ultrices sem. Sed a ex sed urna
+                    posuere
+                    placerat. Vestibulum porttitor ac eros in vestibulum.
+                </p>
+            </div>
+
+            <div class="card__descricao">
+                <h4 class="titulo">Informações do jogo e jurídicas</h4>
+                <p>
+                    Mauris ultricies ullamcorper eros, eget porttitor dolor. Suspendisse vel magna eu ante porta egestas
+                    lacinia et ipsum. Nullam porttitor arcu sed lorem fringilla placerat. Maecenas blandit dolor velit,
+                    a
+                    consectetur lacus imperdiet at. Vivamus commodo id tellus quis porta. Morbi enim ex, varius vitae
+                    arcu
+                    ut, ultricies egestas augue. Fusce a consequat dui. Aliquam dictum sit amet turpis eu convallis.
+                    Morbi
+                    mattis magna sed ultricies sodales. Sed tempus tristique purus ac pulvinar. Integer non ipsum
+                    elementum,
+                    blandit ante aliquet, suscipit orci. Etiam at risus elit. Cras venenatis vestibulum mauris, at
+                    molestie
+                    odio venenatis sed.
+                </p>
+            </div>
+            <div class="card__footer">
+
+                <h1>{{gamePrice}}</h1>
+                <div class="card__botao_comprar" (click)="window.alert('Sucesso! Compra realizada com sucesso.')">
+                    <p>Comprar </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

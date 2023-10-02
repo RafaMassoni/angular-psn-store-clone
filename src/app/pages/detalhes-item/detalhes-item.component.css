@@ -1,0 +1,59 @@
+.home__container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.home__pading{
+    margin: 40px 80px 0 80px;
+
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+
+.home__container app-card{
+    flex: 1;
+}
+
+.card__img{
+    height: 80vh;
+    border-radius: 12px 0 0 12px;
+}
+
+.card__detalhes{
+    flex: 1;
+    height: 80vh;
+    border-radius: 0 12px 12px 0;
+    background-color: #edf5ff;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card__descricao{
+    text-align: justify;
+}
+
+.card__descricao .titulo{
+    margin-bottom: 12px;
+}
+
+.card__footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botao_comprar{
+
+    font-size: 20px;
+    font-family: "Bell MT";
+    background-color: #0746d2;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+}

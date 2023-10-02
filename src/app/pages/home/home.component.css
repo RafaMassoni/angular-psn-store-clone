@@ -1,10 +1,20 @@
 .home__container{
-	width: 90%;
-	margin: auto;
 	padding-top: 50px;
 	display: flex;
 
-	justify-content: space-around;
-	align-items: baseline;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: flex-start;
 	flex-wrap: wrap;
+}
+
+.home__pading{
+	margin: 40px 80px 0 80px;
+
+	background-color: #ffffff;
+	padding: 20px 40px;
+}
+
+.home__container app-card{
+	flex: 1;
 }

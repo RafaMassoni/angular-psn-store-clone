@@ -1,10 +1,11 @@
-<a href="#" class="card__container">
+<a [routerLink]="['item/' + idCard]" class="card__container">
 	<img
 		class="card__img"
 		[src]=[gameCover]
 		alt=""
 		srcset=""
 	>
+	<h1>{{idCard}</h1>
 	<app-card-label
 		gameLabel="{{gameLabel}}"
 	>
